@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     let languageToggle = document.getElementById('language-toggle');
-    let headerListItems = document.querySelectorAll('#Lista-Header li');
+    let headerListItems = document.querySelectorAll('#ListaHeader li');
     function setSpanish() {
       headerListItems.forEach(function (item, index) {
       
