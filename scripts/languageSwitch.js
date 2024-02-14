@@ -136,7 +136,6 @@ document.addEventListener('DOMContentLoaded', function () {
       document.querySelector('#que-esperas h3').textContent = "Are you ready to take your production to the next level?"
       document.querySelector('#que-esperas a').textContent = "Contact us today"
 
-
      
     }
   
