@@ -128,10 +128,10 @@ document.addEventListener('DOMContentLoaded', function () {
       document.querySelector('#blog h3').textContent = "Blog"
       document.querySelector('#blog1 h4').textContent = "The Automation Revolution: How Robots are Transforming Industries"
       document.querySelector('#blog1 p').textContent = "Case studies of companies that have successfully implemented robotic solutions, highlighting the benefits in terms of efficiency, cost reduction, and quality improvement."
-      document.querySelector('#blog1 a').textContent = "Read more ➝"
+      document.querySelector('#blog1 a').textContent = "Read more"
       document.querySelector('#blog2 h4').textContent = "Maximizing Efficiency: Tips for Keeping Your Robotic System in Optimal Condition"
       document.querySelector('#blog2 p').textContent = "Guidance on preventive maintenance, identifying common signs of problems in robots, plus how to perform basic diagnostics."
-      document.querySelector('#blog2 a').textContent = "Read more ➝"
+      document.querySelector('#blog2 a').textContent = "Read more"
 
       document.querySelector('#que-esperas h3').textContent = "Are you ready to take your production to the next level?"
       document.querySelector('#que-esperas a').textContent = "Contact us today"
