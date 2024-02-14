@@ -12,19 +12,15 @@ El proyecto se divide en las siguientes secciones principales:
 - **¿Por Qué Trabajar Con Nosotros?**: Argumentos convincentes sobre las ventajas de elegir FlexiTools como socio tecnológico.
 - **Blog**: Artículos y noticias sobre automatización y robótica.
 - **Contacto**: Información de contacto y formulario para consultas o solicitudes.
+- **Cambio de Idioma**: Permite a los usuarios cambiar el idioma de la página entre español e inglés.
 
-## Tecnologías Utilizadas
-El proyecto se construyó utilizando las siguientes tecnologías:
-- **HTML5**: Estructura base de la página web.
-- **CSS3**: Estilos visuales, incluyendo diseño responsivo para garantizar una buena experiencia de usuario en dispositivos móviles y de escritorio.
-- **JavaScript (jQuery)**: Interactividad del sitio, como el menú de navegación responsive y la integración del carrusel de productos.
+## Tecnologías Utilizadas y su interacción
+
+- **HTML5**: Establece la fundación del sitio, organizando el contenido en secciones semánticas claras. Esta estructura no solo facilita la navegación y mejora el SEO, sino que también simplifica la implementación de características dinámicas, como el cambio de idioma, al proporcionar puntos de referencia claros para la manipulación del DOM con JavaScript.
+- **CSS3**: Embellece el sitio, aplicando estilos visuales que van desde colores y tipografías hasta un diseño responsivo (aún falta pulir detalles). Esta adaptabilidad es crucial para asegurar que el sitio se vea y funcione perfectamente en una variedad de dispositivos, creando una interfaz cohesiva que se adapta al cambiar el idioma, manteniendo la consistencia visual sin importar el contenido.
+- **JavaScript (jQuery)**: Inyecta vida al sitio, permitiendo una amplia gama de interacciones dinámicas. Es fundamental para la funcionalidad de cambio de idioma, permitiendo que los textos se actualicen instantáneamente sin recargar la página. Además, gestiona el comportamiento del menú en dispositivos móviles y la integración de contenidos interactivos, como el carrusel de productos, garantizando que todas las acciones sean fluidas y coherentes con el idioma seleccionado.
 - **Owl Carousel**: Plugin de jQuery utilizado para crear el carrusel de productos de manera eficiente y atractiva.
 
-## Interacción Entre Tecnologías
-- **HTML5** provee la estructura semántica del sitio, organizando el contenido en secciones claramente definidas.
-- **CSS3** se encarga de aplicar estilos visuales, incluyendo colores, tipografías, y layout responsivo que se adapta a diferentes tamaños de pantalla.
-- **JavaScript (jQuery)** añade dinamismo al sitio, permitiendo interacciones como el despliegue del menú en dispositivos móviles y la animación del carrusel de productos.
-- **Owl Carousel**, implementado a través de jQuery, facilita la creación de un carrusel interactivo para la sección de productos, mejorando la experiencia del usuario al explorar lo que FlexiTools tiene para ofrecer.
 
 ## Cómo Usar
 Para utilizar este proyecto, simplemente clona el repositorio en tu entorno local y abre el archivo `index.html` en tu navegador preferido.
