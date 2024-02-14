@@ -21,16 +21,24 @@
     <div class="contenedor">
       <p class="logo">FLEXI TOOLS</p>
       <img class="menu-icon" src="imagenes/menu.png" alt="">
-      <nav>
-        <ul class="lista-menu">
+
+      <nav id="navbar">
+        <ul class="lista-menu" id="Lista-Header">
           <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
           <li><a href="#servicios">Servicios</a></li>
           <li><a href="#productos">Productos</a></li>
           <li><a href="#por-que-trabajar">¿Por qué trabajar con nosotros?</a></li>
           <li><a href="#blog">Blog</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#que-esperas">Contacto</a></li>
         </ul>
+        <div class="switch">
+          <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+          <label for="language-toggle"></label>
+          <span class="on">ES</span>
+          <span class="off">EN</span>
+      </div>
       </nav>
+
     </div>
   </div>
 
@@ -54,9 +62,13 @@
         <img src="imagenes/us.jpg">
       </div>
       <div class="texto">
-        <p>Nuestra filosofía está basada en la actitud de servicio hacia nuestros clientes, durante 30 años hemos podido generar una excelente reputación de responsabilidad y compromiso.</p>
-        <p>Nuestros clientes aprecian nuestro esfuerzo por hacer nuestros sus retos y compromisos. tenemos la satisfacción de hacer que nuestros clientes destaquen y sean reconocidos por el éxito en sus proyectos.</p>
-        <p>La mejor carta de presentación son los testimonios de nuestros clientes a quienes dedicamos toda nuestra atención.</p>
+        <p>Nuestra filosofía está basada en la actitud de servicio hacia nuestros clientes, durante 30 años hemos podido generar una excelente reputación de responsabilidad y compromiso.
+        </br>
+        </br>
+        Nuestros clientes aprecian nuestro esfuerzo por hacer nuestros sus retos y compromisos. tenemos la satisfacción de hacer que nuestros clientes destaquen y sean reconocidos por el éxito en sus proyectos.
+        </br>
+        </br>
+        La mejor carta de presentación son los testimonios de nuestros clientes a quienes dedicamos toda nuestra atención.</p>
         <a href="#servicios">VER SERVICIOS</a>
       </div>
     </div>
@@ -67,32 +79,32 @@
   <div class="contenedor">
     <h3>Servicios</h3>
     <div class="contenedor-servicios">
-      <div class="servicio violeta">
+      <div class="servicio violeta" id="integracion">
         <h4>Integración de sistemas robóticos</h4>
         <p>Desarrollo de soluciones personalizadas para integrar robots en líneas de producción existentes o nuevas. Esto incluye la adaptación de robots para tareas específicas, programación personalizada y asegurar que se integren sin problemas con otros sistemas y maquinaria.</p>
         <img class="icono" src="imagenes/integracion.png">
       </div>
-      <div class="servicio celeste">
+      <div class="servicio celeste" id="mantenimiento">
         <h4>Mantenimiento y reparación de robots</h4>
         <p>Servicios de mantenimiento preventivo y reparación para sistemas robóticos. Esto asegura que los robots funcionen de manera eficiente y reduce el tiempo de inactividad en la producción debido a fallas técnicas.</p>
         <img class="icono" src="imagenes/mantenimiento.png">
       </div>
-      <div class="servicio violeta">
+      <div class="servicio violeta" id="diseno">
         <h4>Consultoría y diseño de sistemas robóticos</h4>
         <p>Proporcionar asesoramiento experto sobre la selección y el diseño de sistemas robóticos adecuados para necesidades específicas de producción, incluyendo la elección de robots, EOATs (End-of-Arm Tooling) y software de control.</p>
         <img class="icono" src="imagenes/diseno.png">
       </div>
-      <div class="servicio celeste">
+      <div class="servicio celeste" id="capacitacion">
         <h4>Capacitación y soporte técnico</h4>
         <p>Formación en el uso y mantenimiento de sistemas robóticos, así como soporte técnico continuo para resolver cualquier problema operativo o técnico que pueda surgir.</p>
         <img class="icono" src="imagenes/capacitacion.png">
       </div>
-      <div class="servicio violeta">
+      <div class="servicio violeta" id="automatizacion">
         <h4>Automatización de procesos</h4>
         <p>Analizar los procesos de producción de los clientes y desarrollar soluciones de automatización utilizando robots. Esto puede incluir la automatización de tareas repetitivas, peligrosas o que requieren alta precisión.</p>
         <img class="icono" src="imagenes/automatizacion.png">
       </div>
-      <div class="servicio celeste">
+      <div class="servicio celeste" id="alquiler">
         <h4>Venta y alquiler de equipos robóticos</h4>
         <p>Se ofrece una amplia gama de robots y accesorios relacionados, tanto para la venta como en modalidad de alquiler, para adaptarse a las necesidades temporales o a largo plazo de los clientes.</p>
         <img class="icono" src="imagenes/alquiler.png">
@@ -141,22 +153,22 @@
       <div class="item">
         <ul>
           <li><img src="imagenes/eficiencia.png" alt=""></li>
-          <li>Mejora de la eficiencia y productividad</li>
-          <li>La implementación de soluciones robóticas puede significar una mejora sustancial en la eficiencia y la productividad de los procesos de producción.</li>
+          <li id="ef1">Mejora de la eficiencia y productividad</li>
+          <li id="ef2">La implementación de soluciones robóticas puede significar una mejora sustancial en la eficiencia y la productividad de los procesos de producción.</li>
         </ul>
       </div>
       <div class="item">
         <ul>
           <li><img src="imagenes/bajocosto.png" alt=""></li>
-          <li>Reducción de costos a largo plazo</li>
-          <li>A largo plazo, los robots reducen los costos operativos. Esto se debe a la disminución de errores, menor desperdicio de materiales, reducción de los costos laborales y menores tiempos de inactividad.</li>
+          <li id="bc1">Reducción de costos a largo plazo</li>
+          <li id="bc2">A largo plazo, los robots reducen los costos operativos. Esto se debe a la disminución de errores, menor desperdicio de materiales, reducción de los costos laborales y menores tiempos de inactividad.</li>
         </ul>
       </div>
       <div class="item">
         <ul>
           <li><img src="imagenes/flexibilidad.png" alt=""></li>
-          <li>Adaptabilidad y flexibilidad en la producción</li>
-          <li>Se ofrece flexibilidad significativa para cambiar la producción de nuestros clientes según las demandas del mercado o para introducir nuevos productos sin necesidad de grandes inversiones adicionales en nueva maquinaria. </li>
+          <li id="flex1">Adaptabilidad y flexibilidad en la producción</li>
+          <li id="flex2">Se ofrece flexibilidad significativa para cambiar la producción de nuestros clientes según las demandas del mercado o para introducir nuevos productos sin necesidad de grandes inversiones adicionales en nueva maquinaria. </li>
         </ul>
       </div>
     </div>
@@ -169,7 +181,7 @@
     <div class="contenedor-publicaciones">
       <div class="publicacion">
         <img src="imagenes/blog1.jpg" alt="">
-        <div class="contenido">
+        <div class="contenido" id="blog1">
           <h4>La Revolución de la Automatización: Cómo los Robots Están Transformando las Industrias</h4>
           <p>Estudios de caso de empresas que han implementado con éxito soluciones robóticas, destacando los beneficios en términos de eficiencia, reducción de costos y mejora de la calidad.</p>
           <a href="">Leer mas ➝</a>
@@ -177,7 +189,7 @@
       </div>
       <div class="publicacion">
         <img src="imagenes/blog2.jpg" alt="">
-        <div class="contenido">
+        <div class="contenido" id="blog2">
           <h4>Maximizando la Eficiencia: Consejos para Mantener su Sistema Robótico en Óptimas Condiciones</h4>
           <p>Orientación sobre mantenimiento preventivo, identificación de señales comunes de problemas en robots, además de cómo realizar diagnósticos básicos.</p>
           <a href="">Leer mas ➝</a>
@@ -224,20 +236,14 @@ $('.owl-carousel').owlCarousel({
 </script>
 
 <script>
-
 $(document).ready(function(){
-
-
 $('.menu-icon').click(function(){
   $('header nav').slideToggle();
 })
-
 })
-
-
-
 </script>
 
+<script src="scripts/languageSwitch.js"></script>
 
 </body>
 
