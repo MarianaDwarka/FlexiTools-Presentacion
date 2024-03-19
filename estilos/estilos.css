@@ -173,7 +173,10 @@ color: #000;
 #por-que-trabajar .item {
   width: 28%;
   text-align: center;
+  flex: 1 1 300px; 
+  margin: 10px;
 }
+
 
 #por-que-trabajar ul li {
   list-style: none;
@@ -267,7 +270,7 @@ html {
   display: none;
 }
 
-/* ------------------------------ */
+/* -------------Para tabletas----------------- */
 
 @media (max-width: 800px) {
 
@@ -316,7 +319,11 @@ html {
 }
 
 #sobre-nosotros .texto {
-    width: 100%;
+    width: 90%;
+    text-align: center;
+    margin: 15px;
+    padding: 0;
+    
 }
 
 .contenedor-servicios {
@@ -326,6 +333,7 @@ html {
 .servicio {
   width: 82%;
   padding: 34px 30px 69px 30px;
+  margin: 10px;
 }
 
 .icono {
@@ -336,13 +344,18 @@ h3 {
   font-size: 43px;
 }
 
-.contenedor-trabajar {
-    flex-direction: column;
+
+#por-que-trabajar .item {
+  width: 90%;
+  text-align: center;
+  flex: 1 1 300px; 
+  margin: 10px;
 }
 
 .item ul {
     padding: 0;
 }
+
 
 #blog .contenedor-publicaciones {
     flex-direction: column;
@@ -355,6 +368,8 @@ h3 {
 
 }
 
+/* -------------Para dispositivos móviles----------------- */
+
 @media (min-width: 600px) and (max-width:800px) {
   header {
     height: 70vh;
@@ -365,13 +380,14 @@ h3 {
     padding: 34px 30px 69px 30px;
     margin: auto;
     margin-bottom: 45px;
-}
+  }
 
-#blog .publicacion {
-    width: 71%;
-    margin: auto;
-    margin-bottom: 40px;
-}
+  #blog .publicacion {
+      width: 71%;
+      margin: auto;
+      margin-bottom: 40px;
+  }
+
 
 }
 
@@ -380,10 +396,11 @@ h3 {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  min-width: 100px;
 }
 .switch > span {
   position: absolute;
-  top: 25px;
   pointer-events: none;
   font-family: 'Helvetica', Arial, sans-serif;
   font-weight: bold;
